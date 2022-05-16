@@ -1,0 +1,16 @@
+form {
+  input {
+    &:focus {
+      border: none;
+      outline: none;
+      border: 2px solid violet;
+      + button {
+        background-color: violet;
+        color: black;
+        border: none;
+        outline: none;
+        border: 2px solid violet;
+      }
+    }
+  }
+}
